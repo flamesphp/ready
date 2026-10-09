@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 
 namespace Flames\Ready;
 
@@ -8,7 +10,8 @@ namespace Flames\Ready;
 class ResetData
 {
     public static array $data = [
-        '.env' => []
+        '.env'        => [],
+        '.env.public' => [],
     ];
 
     public static \WeakMap $weakMap;
